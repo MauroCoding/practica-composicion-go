@@ -10,7 +10,7 @@ type items []item
 
 type Items = items
 
-func (i item) GetValue() float64 {
+func (i *item) GetValue() float64 {
 	return i.value
 }
 
